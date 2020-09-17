@@ -8,30 +8,46 @@ A Jupyter notebook is used, with two blocks, one for each analysis. The first bl
 
 The sources of data were as follows:
 Alcohol consumption, by country
+
   File name: SA_0000001400.csv
+  
   Size (rows x columns): 941 x 12
+  
   Source: The World Heath Organization
       https://apps.who.int/gho/data/node.main.A1039?lang=en
       
   About: The data broke down different types of alcohol consumption, but this correlation did not take that into account. It used the "All types" of alcohol data. This data set also shows the data for each year, from 2010 to 2018. Because this analysis was not focused on a year-over-year study, or how it changed by year, only two years were used. In one correlation (cropland), the year 2016 was used. In the other analysis, (life expentancy) the year 2015 was used. This was based on the available data for cropland and life expectancy. I wanted to use the same year of alcohol consumption for each of these analyses
   
+  
 Amount of cropland, per person, used, by country
+
   File name: cropland-per-person-over-the-long-term.csv
+  
   Size (rows x columns): 1017 x 4
+  
   Source: Our World in Data
+  
     https://ourworldindata.org/land-use
+    
     Their source: http://themasites.pbl.nl/tridion/en/themasites/hyde/
     
   About: The data mainly focused on cropland use over time, which made this type of analyses a little challening. Also additing to the challenge was many of the data points were for continents, not countries. The only countries in common between this data set and the alcohol consumption data set were Brazil, Canada, China, India, Russia and the United States. It still made for some interesting data, but larger conclusions are more difficult to make with the small sample size. 
 
 Life expectancy at bith
   File name: life-expectancy-at-birth-oecd.csv
+  
   Size (rows x columns): 2239 x 4
+  
   Source:  Data published by	OECD (2018), Life expectancy at birth (indicator).
+  
     https://data.oecd.org/healthstat/life-expectancy-at-birth.htm
+    
   About: This data set proved to be very complete, in contrast to the cropland data set. It also had many years, but 2015 was used, as it was a year that it had in common with the alcohol consumption by country.
   
 Python packages used:
+
   matplotlib.pyplot
+  
   pandas
+  
   numpy
