@@ -2,9 +2,11 @@
 
 The abstract of this project is correlating alcohol consumption, but country, with both amount of cropland used per capita, and life expentancy at birth. There was no attempt at causation, as the cause and effect of things like this as are numerous, but additional study could be performed that attempted to isolate and account for a number of other variables, such as poverty rate, GPD, alcohol laws, etc. I performed these analyses, in part, as a challenge to use data from different data sets. I also wanted to test my theory that at least within certain bounds, the alcohol consumption per capita is highly correlated with life expectancy. I also thought that the cropland use per capita would be lightly correlated.
 
-A Jupyter notebook is used, with two blocks, one for each analysis. The first block analyzes cropland use vs. alcohol consumption, and the second block analyzes life expentancy at birth vs. alcohol consumption. The first block must be run before the second.
-  The first block returns a plot for the six countries analyzed. It shows a positive correlation between cropland use per capita and alcohol consumption per capita. 
-  The second block returns two plots, with the second one a zoomed in version of the first. There is a cluster of data that makes the labels difficult to read when all of the data is plotted. It also shows a positive correlation between life expentancy at birth and alcohol consumption per capita. The main outlier in this is South Africa, which has a low life expetancy at birth, but a moderate per capita alcohol consumption.
+A Jupyter notebook is used (Vaughan-HW-1), with two blocks, one for each analysis. The first block analyzes cropland use vs. alcohol consumption, and the second block analyzes life expentancy at birth vs. alcohol consumption. The first block must be run before the second.
+  The second block returns a plot for the six countries analyzed. It shows a positive correlation between cropland use per capita and alcohol consumption per capita. 
+  The third block returns two plots, with the second one a zoomed in version of the first. There is a cluster of data that makes the labels difficult to read when all of the data is plotted. It also shows a positive correlation between life expentancy at birth and alcohol consumption per capita. The main outlier in this is South Africa, which has a low life expetancy at birth, but a moderate per capita alcohol consumption.
+  A brief abstract is noted in Jupyter markdown in the first block.
+  Methodolgies and some challenges are identified in the fourth block. Final conclusions are also presented here.
 
 The sources of data were as follows:
 Alcohol consumption, by country
